@@ -4,7 +4,7 @@ export const videos = [
         title:'Video awesome',
         description:'This is something I love',
         views:24,
-        videoFile:"https://videofile.ogg",
+        videoFile:"http://media.w3.org/2010/05/bunny/movie.ogv",
         creators: {
             id:121212,
             name:"SeungHoon",
@@ -16,7 +16,7 @@ export const videos = [
         title:'Video super',
         description:'This is something I love',
         views:24,
-        videoFile:"https://videofile.ogg",
+        videoFile:"http://media.w3.org/2010/05/bunny/movie.ogv",
         creators: {
             id:121212,
             name:"SeungHoon",
@@ -28,7 +28,7 @@ export const videos = [
         title:'Video nice',
         description:'This is something I love',
         views:24,
-        videoFile:"https://videofile.ogg",
+        videoFile:"http://media.w3.org/2010/05/bunny/movie.ogv",
         creators: {
             id:121212,
             name:"SeungHoon",
