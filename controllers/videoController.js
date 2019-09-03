@@ -1,7 +1,6 @@
 import routes from "../routes";
 import Video from "../models/Video";
 
-
 export const home = async (req, res) => {
     try {
         const videos = await Video.find({});
@@ -26,6 +25,7 @@ export const postUpload = (req, res) => {
     const {
         body: { file, title, description }
     } = req;
+    console.dir(file, title, description);
     // To Do: Upload and save video
     res.redirect(routes.videoDetail(324293));
 };
